@@ -5,3 +5,7 @@
 + Downsample these titled photographs into the same size. 
 + Divide target photo into tiled sections and select a downsampled photograph to each section based on the similarity. 
 + Generate the final photomosaic photo, display and store it.
+
+
+Reference:
+https://github.com/easonline/AndroidImagePicker
