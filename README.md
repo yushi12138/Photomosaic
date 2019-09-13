@@ -6,7 +6,7 @@
 + Divide target photo into tiled sections and select a downsampled photograph to each section based on the similarity. 
 + Generate the final photomosaic photo, display and store it.
 
-![Psyduck]("https://github.com/yushi12138/resourcesOL/blob/master/BlogImages/Photomosaic/duck.jpg?raw=true")
+![Psyduck](https://github.com/yushi12138/resourcesOL/blob/master/BlogImages/Photomosaic/duck.jpg?raw=true "Logo Title Text 1")
 
 Reference:
 https://github.com/easonline/AndroidImagePicker
