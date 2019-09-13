@@ -5,28 +5,40 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/target_image"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        />
+
     <Button
         android:id="@+id/btn_single"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="单选" />
-
-
-    <Button
-        android:id="@+id/btn_unlimited"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/btn_single"
-        android:layout_below="@+id/btn_single"
-        android:text="多选(不限数量)" />
-
+        android:layout_below="@+id/target_image"
+        android:text="Target Photo" />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rv_image"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/btn_single"
+         />
+
+    <Button
+        android:id="@+id/btn_unlimited"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_below="@+id/rv_image"
+        android:text="Tiled Photos" />
+
+
+    <Button
+        android:id="@+id/btn_generate"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
         android:layout_below="@+id/btn_unlimited"
-        android:layout_marginTop="10dp" />
+        android:layout_marginTop="10dp"
+        android:text="Generate" />
 
 </RelativeLayout>
