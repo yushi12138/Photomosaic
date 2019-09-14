@@ -13,7 +13,7 @@
 * Opencv-android
 
 ### ImageSelector
-* Developped by Glide in order to fluently load and display the images stored in the memory.
+* Developed by Glide in order to fluently load and display the images stored in the memory.
 
 ### Opencv-android
 * image processing module helps to manipulate the image
